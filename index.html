@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Sample Semantic HTML5 Page</title>
+  <meta name="description" content="A simple, semantic HTML5 page demonstrating accessibility and SEO best practices." />
+  <meta name="keywords" content="HTML5, Accessibility, SEO, Semantic, Web Design" />
+  <meta name="author" content="Wess Waithaka" />
+</head>
+<body>
+  <header role="banner">
+    <h1>Welcome to My Semantic HTML5 Page</h1>
+    <nav role="navigation" aria-label="Main Navigation">
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section id="intro" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction</h2>
+      <p>This page demonstrates a well-structured HTML5 document focused on accessibility and SEO.</p>
+    </section>
+
+    <section id="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Features</h2>
+
+      <article id="feature1" aria-labelledby="feature1-heading">
+        <h3 id="feature1-heading">Semantic Structure</h3>
+        <p>Uses appropriate HTML5 elements to provide clear document structure and improve readability.</p>
+      </article>
+
+      <article id="feature2" aria-labelledby="feature2-heading">
+        <h3 id="feature2-heading">Accessibility</h3>
+        <p>Includes ARIA roles and landmarks to assist screen readers and improve navigation for all users.</p>
+      </article>
+
+      <article id="feature3" aria-labelledby="feature3-heading">
+        <h3 id="feature3-heading">SEO Best Practices</h3>
+        <p>Optimized with meta tags, heading hierarchy, and descriptive content to enhance search engine visibility.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer role="contentinfo" id="contact">
+    <h2>Contact</h2>
+    <address>
+      Written by <a href="mailto:wess@example.com">Wess Waithaka</a>.<br />
+      Visit us at:<br />
+      123 Semantic St.<br />
+      Nairobi, Kenya
+    </address>
+  </footer>
+</body>
+</html>
